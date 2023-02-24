@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     @IBAction func boardTapAction(_ sender: UIButton) {
         addToBoard(sender)
         if(fullBoard()) {
-             
+             resultAlert(title:  "Draw")
         }
     }
     func resultAlert(title: String) {
@@ -68,7 +68,19 @@ class ViewController: UIViewController {
     }
     
     func resetBoard() {
-        
+        for button in board {
+            button.setTitle(nil, for: .normal)
+            button.isEnabled = true
+        }
+        if firstTurn == Turn.o {
+            firstTurn = Turn.x
+            turnLabel.text = X
+        }
+        else if firstTurn == Turn.x {
+            firstTurn = Turn.o
+            turnLabel.text = O
+        }
+        currentTurn = firstTurn
     }
     
     func fullBoard() -> Bool {
