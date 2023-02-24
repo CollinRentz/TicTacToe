@@ -10,8 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     enum Turn {
-        case x
-        case o
+        case Cross
+        case Nought
     }
     
     @IBOutlet weak var turnLabel: UILabel!
@@ -28,15 +28,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var c2: UIButton!
     @IBOutlet weak var c3: UIButton!
     
-    var firstTurn = Turn.x
-    var currentTurn = Turn.x
+    var firstTurn = Turn.Cross
+    var currentTurn = Turn.Cross
     
-    var X = "X"
-    var O = "O"
+    var CROSS = "X"
+    var NOUGHT = "O"
     var board = [UIButton]()
     
-    var oScore = 0
-    var xScore = 0
+    var noughtScore = 0
+    var crossScore = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,12 +59,12 @@ class ViewController: UIViewController {
     @IBAction func boardTapAction(_ sender: UIButton) {
         addToBoard(sender)
         
-        if checkForVictory(X){
-            xScore += 1
+        if checkForVictory(CROSS){
+            crossScore += 1
             resultAlert(title: "X's Win!")
         }
-        if checkForVictory(O){
-            oScore += 1
+        if checkForVictory(NOUGHT){
+            noughtScore += 1
             resultAlert(title: "O's Win!")
         }
             
@@ -117,7 +117,7 @@ class ViewController: UIViewController {
     }
     
     func resultAlert(title: String) {
-        let message = "\nO's" + String(oScore) + "\n\nX's" + String(xScore)
+        let message = "\nO s" + String(noughtScore) + "\n\nX s" + String(crossScore)
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "Reset", style: .default, handler: { (_) in
             self.resetBoard()
@@ -130,13 +130,13 @@ class ViewController: UIViewController {
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
-        if firstTurn == Turn.o {
-            firstTurn = Turn.x
-            turnLabel.text = X
+        if firstTurn == Turn.Nought {
+            firstTurn = Turn.Cross
+            turnLabel.text = CROSS
         }
-        else if firstTurn == Turn.x {
-            firstTurn = Turn.o
-            turnLabel.text = O
+        else if firstTurn == Turn.Cross {
+            firstTurn = Turn.Nought
+            turnLabel.text = NOUGHT
         }
         currentTurn = firstTurn
     }
@@ -152,15 +152,15 @@ class ViewController: UIViewController {
     
     func addToBoard(_ sender: UIButton) {
         if(sender.title(for: .normal) == nil) {
-            if(currentTurn == Turn.o) {
-                sender.setTitle(O, for: .normal)
-                currentTurn = Turn.x
-                turnLabel.text = X
+            if(currentTurn == Turn.Nought) {
+                sender.setTitle(NOUGHT, for: .normal)
+                currentTurn = Turn.Cross
+                turnLabel.text = CROSS
             }
-            else if(currentTurn == Turn.x) {
-                sender.setTitle(X, for: .normal)
-                currentTurn = Turn.o
-                turnLabel.text = O
+            else if(currentTurn == Turn.Cross) {
+                sender.setTitle(CROSS, for: .normal)
+                currentTurn = Turn.Nought
+                turnLabel.text = NOUGHT
             }
             sender.isEnabled = false
         }

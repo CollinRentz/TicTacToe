@@ -26,7 +26,18 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="114.66666666666667" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fsl-73-w1W"/>
                                                 </connections>
@@ -35,7 +46,18 @@
                                                 <rect key="frame" x="119.66666666666669" y="0.0" width="114.33333333333331" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jkf-Im-vIL"/>
                                                 </connections>
@@ -44,7 +66,18 @@
                                                 <rect key="frame" x="239.00000000000003" y="0.0" width="114.66666666666666" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzy-Cf-uZb"/>
                                                 </connections>
@@ -58,7 +91,18 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="114.66666666666667" height="114.33333333333333"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xF-hp-KMB"/>
                                                 </connections>
@@ -67,7 +111,18 @@
                                                 <rect key="frame" x="119.66666666666669" y="0.0" width="114.33333333333331" height="114.33333333333333"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rPN-g3-9Nb"/>
                                                 </connections>
@@ -76,7 +131,18 @@
                                                 <rect key="frame" x="239.00000000000003" y="0.0" width="114.66666666666666" height="114.33333333333333"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="znU-OX-ZSc"/>
                                                 </connections>
@@ -90,7 +156,18 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="114.66666666666667" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zfs-WS-e2k"/>
                                                 </connections>
@@ -99,7 +176,18 @@
                                                 <rect key="frame" x="119.66666666666669" y="0.0" width="114.33333333333331" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgZ-nS-9Mi"/>
                                                 </connections>
@@ -108,7 +196,18 @@
                                                 <rect key="frame" x="239.00000000000003" y="0.0" width="114.66666666666666" height="114.66666666666667"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="gray">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content=".">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhJ-dn-wvM"/>
                                                 </connections>
@@ -121,14 +220,14 @@
                                     <constraint firstAttribute="width" secondItem="Jpu-gc-ElR" secondAttribute="height" multiplier="1:1" id="ab9-YC-SMI"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Up7-fT-tn4">
-                                <rect key="frame" x="172" y="112" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Up7-fT-tn4">
+                                <rect key="frame" x="173.66666666666666" y="109" width="45.666666666666657" height="28.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVw-b1-YRD">
-                                <rect key="frame" x="69" y="141" width="256" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVw-b1-YRD">
+                                <rect key="frame" x="175" y="142.66666666666666" width="43" height="71.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -139,11 +238,13 @@
                         <constraints>
                             <constraint firstItem="MVw-b1-YRD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3Z9-St-zEX"/>
                             <constraint firstItem="Jpu-gc-ElR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IBA-Vz-QWz"/>
+                            <constraint firstItem="Up7-fT-tn4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="IN5-R3-nQc"/>
                             <constraint firstItem="Up7-fT-tn4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IwL-OS-qg2"/>
                             <constraint firstItem="Jpu-gc-ElR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Rx9-Oq-jyY"/>
                             <constraint firstItem="Up7-fT-tn4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="V82-k8-FVz"/>
                             <constraint firstItem="Up7-fT-tn4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WkT-FN-ZR9"/>
                             <constraint firstItem="Jpu-gc-ElR" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.9" id="mpo-Q2-doV"/>
+                            <constraint firstItem="MVw-b1-YRD" firstAttribute="top" secondItem="Up7-fT-tn4" secondAttribute="bottom" constant="5" id="txP-dV-pqT"/>
                         </constraints>
                     </view>
                     <connections>

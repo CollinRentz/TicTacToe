@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9F9D993729A94E6A000F3964 /* Controllers */,
-				9F9D992729A545DE000F3964 /* Main.storyboard */,
+				9F9D993829A9500D000F3964 /* View */,
 				9F9D993629A94DE2000F3964 /* Resources */,
 			);
 			path = TicTacToe;
@@ -89,6 +89,14 @@
 				9F9D993529A94DBF000F3964 /* ViewControllers */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F9D993829A9500D000F3964 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D992729A545DE000F3964 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3X83ZW5424;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_FILE = TicTacToe/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3X83ZW5424;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_FILE = TicTacToe/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
