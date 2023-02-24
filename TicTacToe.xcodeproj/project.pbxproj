@@ -56,15 +56,39 @@
 		9F9D992029A545DE000F3964 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				9F9D992129A545DE000F3964 /* AppDelegate.swift */,
-				9F9D992329A545DE000F3964 /* SceneDelegate.swift */,
-				9F9D992529A545DE000F3964 /* ViewController.swift */,
+				9F9D993729A94E6A000F3964 /* Controllers */,
 				9F9D992729A545DE000F3964 /* Main.storyboard */,
-				9F9D992A29A545DF000F3964 /* Assets.xcassets */,
-				9F9D992C29A545DF000F3964 /* LaunchScreen.storyboard */,
-				9F9D992F29A545DF000F3964 /* Info.plist */,
+				9F9D993629A94DE2000F3964 /* Resources */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		9F9D993529A94DBF000F3964 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D992529A545DE000F3964 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F9D993629A94DE2000F3964 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D992129A545DE000F3964 /* AppDelegate.swift */,
+				9F9D992329A545DE000F3964 /* SceneDelegate.swift */,
+				9F9D992C29A545DF000F3964 /* LaunchScreen.storyboard */,
+				9F9D992A29A545DF000F3964 /* Assets.xcassets */,
+				9F9D992F29A545DF000F3964 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F9D993729A94E6A000F3964 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D993529A94DBF000F3964 /* ViewControllers */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

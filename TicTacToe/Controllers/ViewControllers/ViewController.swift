@@ -35,6 +35,9 @@ class ViewController: UIViewController {
     var O = "O"
     var board = [UIButton]()
     
+    var oScore = 0
+    var xScore = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,11 +58,66 @@ class ViewController: UIViewController {
 
     @IBAction func boardTapAction(_ sender: UIButton) {
         addToBoard(sender)
+        
+        if checkForVictory(X){
+            xScore += 1
+            resultAlert(title: "X's Win!")
+        }
+        if checkForVictory(O){
+            oScore += 1
+            resultAlert(title: "O's Win!")
+        }
+            
         if(fullBoard()) {
              resultAlert(title:  "Draw")
         }
     }
+    
+    func checkForVictory(_ s :String) -> Bool {
+        
+        //Horizontal Victories
+        
+        if thisSymbol(a1, s) && thisSymbol(a2, s) && thisSymbol(a3, s) {
+            return true
+        }
+        if thisSymbol(b1, s) && thisSymbol(b2, s) && thisSymbol(b3, s) {
+            return true
+        }
+        if thisSymbol(c1, s) && thisSymbol(c2, s) && thisSymbol(c3, s) {
+            return true
+        }
+        
+        // Vertical Victories
+        
+        if thisSymbol(a1, s) && thisSymbol(b1, s) && thisSymbol(c1, s) {
+            return true
+        }
+        if thisSymbol(a2, s) && thisSymbol(b2, s) && thisSymbol(c2, s) {
+            return true
+        }
+        if thisSymbol(a3, s) && thisSymbol(b3, s) && thisSymbol(c3, s) {
+            return true
+        }
+        
+        //Diagonal Victories
+        
+        if thisSymbol(a1, s) && thisSymbol(b2, s) && thisSymbol(c3, s) {
+            return true
+        }
+        if thisSymbol(a3, s) && thisSymbol(b2, s) && thisSymbol(c1, s) {
+            return true
+        }
+        
+        
+        return false
+    }
+    
+    func thisSymbol(_ button: UIButton, _ symbol: String) -> Bool {
+        return button.title(for: .normal) == symbol
+    }
+    
     func resultAlert(title: String) {
+        let message = "\nO's" + String(oScore) + "\n\nX's" + String(xScore)
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "Reset", style: .default, handler: { (_) in
             self.resetBoard()
