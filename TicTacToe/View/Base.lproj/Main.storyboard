@@ -30,7 +30,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -50,7 +50,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -70,7 +70,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -95,7 +95,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -115,7 +115,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -135,7 +135,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -160,7 +160,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -180,7 +180,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -200,7 +200,7 @@
                                                     <attributedString key="attributedTitle">
                                                         <fragment content=".">
                                                             <attributes>
-                                                                <font key="NSFont" metaFont="system" size="35"/>
+                                                                <font key="NSFont" metaFont="system" size="50"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
